@@ -9,3 +9,9 @@
 ### Core Architecture
 The system is built using a microservices architecture communicating via generic gRPC endpoints.
 
+
+
+### Endpoints
+- `GET /api/v1/health` - Health check status code
+- `POST /api/v1/users` - Create a new user record
+
